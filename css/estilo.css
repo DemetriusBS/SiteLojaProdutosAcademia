@@ -10,14 +10,18 @@ header{
 }
 
 nav{
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 nav a{
     color: #F6FAFA;
     text-align: center;
-    padding: 75px;
-    font-size: 25px;
+    font-size: 24px;
+    padding: 18px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -62,4 +66,33 @@ footer{
     text-align: center;
     padding: 23px;
     line-height: 28px;
+}
+
+h2{
+    color: #F6FAFA;
+    font-family: Arial;
+    text-align: center;
+}
+
+.Blog{
+    color: #F6FAFA;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 28px;
+}
+
+.Info{
+    margin: 20px;
+}
+
+a{
+    color: #09f825;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
